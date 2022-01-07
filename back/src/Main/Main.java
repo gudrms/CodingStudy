@@ -12,6 +12,6 @@ public class Main {
 	        
 	    }
 	    
-	      System.out.println(y+31);
+	      System.out.println(y);
 	    }
 	}
