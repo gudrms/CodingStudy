@@ -16,12 +16,13 @@ public class Main11 {
 		StringTokenizer st;
 				
 		while(true) {
-			st = new StringTokenizer(br.readLine());
+			st = new StringTokenizer(br.readLine()+" ");
 			
 			int A = Integer.parseInt(st.nextToken());
 			int B = Integer.parseInt(st.nextToken());
+			bw.write(A+B+"\n");
 			
-			if(A+B<0) {
+			if(A+B<=0) {
 				break;
 			}else {
 				bw.write(A+B+"\n");
